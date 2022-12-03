@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "debugStdLib": true,
+  "configurations": [
+    {
+      "name": "debugger webpack",
+      "program": "${workspaceFolder}/webpack/webpack.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+  ]
+}
+
